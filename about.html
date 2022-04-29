@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>About:VSM</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/lo.jpeg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-close" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="">PRODUCTS</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()" ></i>
+		</nav>
+	<h1>About Us</h1>
+	</section>
+
+
+	<!----about us ---->
+	<section class="about-us">
+		<div class="about-col">
+			<h1>We are the only supermarket in this area</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="" class="red-btn">Explore Now</a>
+		</div>
+		<div class="about-col">
+			<img src="images/shop.jpeg">
+		</div>
+	</section>
+
+
+	<!----- footer----->
+	<section class="as">
+		<div class="footer-container">
+				<ul>
+					<li><h2>Most Popular Categories</h2></li>
+					<li><h4>Personal care</h4></li>
+					<li><h4>Home care</h4></li>
+					<li><h4>Beverages</h4></li>
+					<li><h4>Baby care</h4></li>
+					<li><h4>Dry fruits</h4></li>
+					<li><h4>Groceries</h4></li>
+				</ul>
+				<ul>
+					<li><h3>Customer Services</h3></li>
+					<li><a href="about.html">About us</a></li>
+					<li><h5>Open:8am to 8pm</h5></li>
+					<li><h5>all 365 days</h5></li>
+				</ul>
+				<ul> 
+					<li><h2>Contact Us</h2></li> 
+					<li>WhatsApp us : <span style="display: inline-block; margin-bottom: 1rem;"><a href="https://wa.me/919860222227?text=Hi" target="_blank" rel="noopener">9860222227</a></span></li>
+					<li>Call Us : <span style="display: inline-block;"><a href="tel:8975112227" target="_blank" rel="noopener">8975112227</a></span></li>
+					
+				<div class="icons">
+			<i class="fa fa-facebook" style="font-size:24px;color:red"></i>
+			<i class="fa fa-instagram" style="font-size:24px;color:red"></i>
+			<i class="fa fa-whatsapp" style="font-size:24px;color:red"></i>
+		</div>
+	</ul>
+			</div>
+		
+	</section>
+	
+	<!-----java script for toogle menu---->
+<script>
+	var navLinks = document.getElementsByTagName('navLinks');
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>
+
+
+
+</body>
+</html>
